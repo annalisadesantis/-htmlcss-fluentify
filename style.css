@@ -1,0 +1,245 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 16px;
+}
+
+.same-container{
+    width: 1200px;
+    margin: auto;
+}
+
+.same-container::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+
+/* ******Intestazione***** */
+
+header{
+    background-image: url('https://www.fluentify.com/home/wp-content/uploads/2020/01/fluentify-cover-privati-scaled.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    position: relative;
+}
+
+header::after{
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: linear-gradient(270deg, transparent 0%, #001A4F 100%);
+    width: 100%;
+    height: 100%;
+}
+
+nav{
+    position: relative;
+    z-index: 2;
+    height: 100px;
+}
+
+.main-menu{
+    float: left;
+    width: 70%;
+}
+
+.logo-menu{
+    display: inline-block;
+    padding-top: 30px;
+    padding-right: 20px;
+}
+
+.logo-menu img{
+    height: 40px;
+}
+
+.voci-menu{
+    display: inline-block;
+    padding-top: 30px;
+    vertical-align: bottom;
+}
+
+.voci-menu li{
+    display: inline-block;
+}
+
+.voci-menu li a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    height: 40px;
+    line-height: 40px;
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 14px;
+    position: relative;
+}
+
+.voci-menu li.current-item a::before {
+    content: '';
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-color: #64DE82;
+    border-radius: 50%;
+    position: absolute;
+    top: 9px;
+    left: 0px;
+    z-index: -1;
+}
+
+.button{
+    display: inline-block;
+    border-radius: 5px;
+    background-color: #64DE82;
+    border: 1px solid #64DE82;
+    color: #337142;
+    text-decoration: none;
+    padding: 7px 14px;
+}
+
+.button:hover{
+    background-color: rgba(100,222,130,0.7);
+    border-color: rgba(100,222,130,0.7);
+    color: white;
+}
+
+.button.button-secondary{
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+}
+
+.button.button-secondary:hover{
+    color: #001A4F;
+    background-color: white;
+}
+
+.header-buttons{
+    float: left;
+    width: 30%;
+    padding-top: 30px;
+    text-align: right;
+}
+
+.header-buttons a{
+    height: 40px;
+    line-height: 40px;
+    padding: 0 14px;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+.header-buttons a:first-child{
+    margin-right: 20px;
+}
+
+.header-buttons a:last-child{
+    color: white;
+    text-decoration: none;
+}
+
+.box-jumbo{
+    position: relative;
+    z-index: 2;
+}
+
+.jumbo-content{
+    width: 55%;
+    padding-top: 100px;
+    padding-bottom: 150px;
+}
+
+.jumbo-content h4{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 14px;
+}
+
+.jumbo-content h1{
+    font-size: 50px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+
+.jumbo-content p{
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+
+
+/* ******Home Promo***** */
+
+.home-promo{
+    weight: 100%;
+    padding: 8% 0;
+    background-color: white;
+}
+
+.big-box-home-promo::after{
+    content: "";
+    display:table;
+    clear:both;
+}
+
+.home-promo-left{
+    float: left;
+}
+
+.home-promo-right{
+    float: left;
+}
+
+.box-title-home-promo{
+    margin: auto;
+}
+
+.title-home-promo-green{
+    font-size: 35px;
+    color: #64DE82;
+    font-weight: bold;
+}
+
+.title-home-promo{
+    font-size: 35px;
+    color: #727272;
+    font-weight: bold;
+}
+
+.title-home-promo-paragrafo{
+    color: #001A4F;
+    font-weight: bold;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.paragrafo-home-promo{
+    color: #727272;
+    padding-bottom: 10px;
+    font-size: 18px;
+}
+
+.space-line{
+    color: #727272;
+}
+
+
+.img-girl-fluentify{
+    height: 100%;
+}
