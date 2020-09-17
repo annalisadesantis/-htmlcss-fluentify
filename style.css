@@ -403,3 +403,11 @@ nav{
 .botton-studi{
     text-transform: uppercase;
 }
+
+/* Footer */
+
+footer{
+    background-color: #001A4F;
+    width: 100%;
+    height: 500px;
+}
