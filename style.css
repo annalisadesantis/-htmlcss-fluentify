@@ -289,7 +289,7 @@ nav{
 .home-mobile{
     background-color: #001A4F;
     width: 100%;
-    height: 360px;
+    /* height: 360px; */
 }
 
 .text-home-mobile{
@@ -326,4 +326,80 @@ nav{
 .img-mobile{
     width: 360px;
     height: 360px;
+    display: block;
+}
+
+/* Home piattaforma */
+
+.home-piattaforma{
+    background-color: white;
+    width: 100%;
+    /* height: 500px; */
+}
+
+.img-home-piattaforma{
+    float: left;
+    width: 600px;
+    text-align: center;
+}
+
+.img-piattaforma{
+    width: 360px;
+    height: 360px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.text-home-piattaforma{
+    float: right;
+    width: 600px;
+}
+
+.title-home-piattaforma{
+    color: #001A4F;
+    font-weight: bold;
+    margin-top: 150px;
+    margin-bottom: 20px;
+}
+
+.paragrafo-home-piattaforma{
+    color: #727272;
+    padding-bottom: 10px;
+    font-size: 18px;
+}
+
+/* Home pianodistudi */
+
+.home-studi{
+    background-color: #294681;
+    width: 100%;
+    /* height: 250px; */
+}
+
+.box-title-home-studi{
+    float: left;
+    width: 600px;
+}
+
+.title-home-studi{
+    color: white;
+    font-weight: bold;
+    font-size: 35px;
+    margin: 50px 0 50px 140px;
+}
+
+.text-home-studi{
+    float: right;
+    width: 600px;
+}
+
+.paragrafo-home-studi{
+    color: white;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    font-size: 18px;
+}
+
+.botton-studi{
+    text-transform: uppercase;
 }
