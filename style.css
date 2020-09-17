@@ -111,6 +111,7 @@ nav{
     color: #337142;
     text-decoration: none;
     padding: 7px 14px;
+    text-transform: uppercase;
 }
 
 .button:hover{
